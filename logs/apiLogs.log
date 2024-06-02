@@ -1,0 +1,23 @@
+2024-05-20 15:30:18 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 15:59:02 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 16:12:46 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 16:14:07 [grizzly-http-server-5] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 18:35:47 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 18:35:48 [grizzly-http-server-2] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-20 19:04:18 [grizzly-http-server-3] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-28 15:29:59 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Verificado com sucesso!
+2024-05-28 15:30:03 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-28 16:38:02 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Verificado com sucesso!
+2024-05-28 16:42:39 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Dados inválidos!
+2024-05-28 16:42:39 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-28 16:52:47 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Dados inválidos!
+2024-05-29 12:04:45 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao salvar Denúncia!
+2024-05-29 12:04:45 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-05-29 12:05:50 [grizzly-http-server-1] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao salvar Denúncia!
+2024-05-29 12:05:50 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-05-29 12:09:33 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao salvar Denúncia!
+2024-05-29 12:11:25 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-29 12:11:55 [grizzly-http-server-2] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-05-29 12:14:32 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao salvar Denúncia!
+2024-05-29 12:51:20 [grizzly-http-server-0] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao salvar Denúncia!
+2024-05-29 12:53:35 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
