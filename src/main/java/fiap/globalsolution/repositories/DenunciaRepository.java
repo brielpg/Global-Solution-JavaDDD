@@ -21,28 +21,25 @@ public class DenunciaRepository {
             entry("CIDADE", "cidade"),
             entry("DESCRICAO", "descricao_local"),
             entry("COMENTARIO", "comentario"),
-            entry("COORDENADAS", "coordenadas"),
-            entry("ID_USUARIO", "id_usuario")
+            entry("COORDENADAS", "coordenadas")
             );
 
     public void salvarDenuncia(Denuncia denuncia) {
         try (Connection connection = conexaoDB.obterConexao()) {
             PreparedStatement preparedStatement = connection.prepareStatement(
-                    "INSERT INTO %s(%s, %s, %s, %s, %s, %s) VALUES (?, ?, ?, ?, ?, ?)"
+                    "INSERT INTO %s(%s, %s, %s, %s, %s) VALUES (?, ?, ?, ?, ?)"
                             .formatted(TABLE_NAME,
                                     TABLE_COLUMNS.get("DENUNCIA"),
                                     TABLE_COLUMNS.get("CIDADE"),
                                     TABLE_COLUMNS.get("DESCRICAO"),
                                     TABLE_COLUMNS.get("COMENTARIO"),
-                                    TABLE_COLUMNS.get("COORDENADAS"),
-                                    TABLE_COLUMNS.get("ID_USUARIO"))
-            );
+                                    TABLE_COLUMNS.get("COORDENADAS")
+            ));
             preparedStatement.setString(1, denuncia.getDenuncia());
             preparedStatement.setString(2, denuncia.getCidade());
             preparedStatement.setString(3, denuncia.getDescricao_local());
             preparedStatement.setString(4, denuncia.getComentario());
             preparedStatement.setString(5, denuncia.getCoordenadas());
-            preparedStatement.setInt(6, denuncia.getId_usuario());
             preparedStatement.executeUpdate();
             LOGGER.info("Denúncia salva com sucesso!");
         } catch (SQLException e) {
@@ -52,6 +49,6 @@ public class DenunciaRepository {
 
     public Boolean validarDados(Denuncia denuncia){
         return denuncia.getComentario() != null && denuncia.getCoordenadas() != null && denuncia.getCidade() != null
-                && denuncia.getDescricao_local() != null && denuncia.getDenuncia() != null && denuncia.getId_usuario() != 0;
+                && denuncia.getDescricao_local() != null && denuncia.getDenuncia() != null;
     }
 }

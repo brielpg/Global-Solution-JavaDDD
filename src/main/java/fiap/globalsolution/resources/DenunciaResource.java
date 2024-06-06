@@ -3,10 +3,10 @@ package fiap.globalsolution.resources;
 import fiap.globalsolution.models.Denuncia;
 import fiap.globalsolution.repositories.DenunciaRepository;
 import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.OPTIONS;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
-import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.core.*;
 
 @Path("/denunciar")
 public class DenunciaResource {
@@ -36,5 +36,16 @@ public class DenunciaResource {
                     .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
                     .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD").build();
         }
+    }
+
+    @OPTIONS
+    public Response handlePreflightDenuncia(@Context UriInfo uriInfo, @Context HttpHeaders headers) {
+        return Response.ok()
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .build();
     }
 }
