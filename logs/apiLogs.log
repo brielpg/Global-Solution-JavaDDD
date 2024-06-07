@@ -27,3 +27,14 @@
 2024-06-04 17:23:43 [grizzly-http-server-6] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao cadastrar o usuário!
 2024-06-04 17:25:09 [grizzly-http-server-7] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao cadastrar o usuário!
 2024-06-04 17:25:10 [grizzly-http-server-8] ERROR fiap.globalsolution.repositories.UsuarioRepository - Erro ao cadastrar o usuário!
+2024-06-07 12:13:53 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-06-07 12:13:57 [grizzly-http-server-2] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-06-07 12:20:39 [grizzly-http-server-3] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-06-07 12:27:50 [grizzly-http-server-0] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-06-07 12:27:55 [grizzly-http-server-1] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!
+2024-06-07 12:28:18 [grizzly-http-server-3] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-06-07 12:28:34 [grizzly-http-server-5] INFO  fiap.globalsolution.repositories.UsuarioRepository - Logado com sucesso
+2024-06-07 12:28:46 [grizzly-http-server-6] INFO  fiap.globalsolution.repositories.UsuarioRepository - Logado com sucesso
+2024-06-07 12:28:49 [grizzly-http-server-7] INFO  fiap.globalsolution.repositories.UsuarioRepository - Logado com sucesso
+2024-06-07 12:32:57 [grizzly-http-server-8] INFO  fiap.globalsolution.repositories.UsuarioRepository - Cadastrado com sucesso!
+2024-06-07 12:33:15 [grizzly-http-server-10] INFO  fiap.globalsolution.repositories.UsuarioRepository - Denúncia salva com sucesso!

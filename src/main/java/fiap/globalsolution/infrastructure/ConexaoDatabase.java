@@ -12,8 +12,8 @@ import java.util.Properties;
 public class ConexaoDatabase {
     public static final Logger LOGGER = LogManager.getLogger(UsuarioRepository.class);
     public static String URL_ORACLE;
-    public static String USER;
-    public static String PASSWORD;
+    public static String USER; //rm552798
+    public static String PASSWORD; //050803
 
     public ConexaoDatabase(){
         carregarDatabase();
